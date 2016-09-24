@@ -1,0 +1,52 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "angular2 Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "typings": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathvisiva/angular-resources.git"
+  },
+  "author": "Sathvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathvisiva/angular-resources/issues"
+  },
+  "homepage": "https://github.com/sathvisiva/angular-resources#readme",
+  "dependencies":{
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "bootstrap": "^4.0.0-alpha.4",
+    "core-js": "^2.4.1",
+    "ie-shim": "^0.1.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "^0.19.27",
+    "zone.js": "^0.6.23"
+  },
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-directory-sync": "^1.2.3",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.4",
+    "gulp-util": "^3.0.7",
+    "lite-server": "^2.2.2",
+    "path": "^0.12.7",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
